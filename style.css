@@ -1,10 +1,18 @@
-;:root{
+:root {
     --branco-principal: #FFFFFF;
-    --branco-secundario:   #FFFFFF;
-    --botao-vermelho:   #ec1212;
-    --cor-de-fundo:   #00030c;
+    --cinza-secundario: #C0C0C0;
+    --botao-vermelho: #e41f18;
+    --cor-de-fundo: #00030C;
 }
 
-body{
+body {
     background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+
 }
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
