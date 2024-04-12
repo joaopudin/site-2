@@ -16,12 +16,16 @@ body {
 }
 
 .principal{
-    background-image: url("img/backgroundl.png");
+    background-image: url("img/Netflix.png");
     background-repeat: no-repeat;
     background-size: contain;
 }
 
 .container{
     height: 100vh;
+}
+
+.container__botao{
+    background-color: var(--botao-vermelho)
 }
 
